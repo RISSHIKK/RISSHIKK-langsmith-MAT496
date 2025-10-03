@@ -28,8 +28,14 @@
   
 ## Module 2:
 
-**Vid 1: Datasets:**
+**Vid 1 - Datasets:**
     Learnt how to build and use datasets in Langsmith to evaluate AI systems offline, explained creating datasets through CSV import and manual entry, tagging versions for iteration, adding examples from real traces, splitting for specialized testing and exporting, building stable "golden" sets to measure improvements over time.  
     Changes made: Made changes in app.py (used Groq's "openai/gpt-oss-120b" model, used HuggingFaceEmbeddings instead of OpenAIEmbeddings), tested additional prompts to the model at the end  
     Source code: https://github.com/RISSHIKK/RISSHIKK-langsmith-MAT496/blob/main/Module%202/Source%20code/dataset_upload.ipynb  
     Tweaked code: https://github.com/RISSHIKK/RISSHIKK-langsmith-MAT496/blob/main/Module%202/dataset_upload_final.ipynb  
+
+**Vid 2 - Evaluators:**
+    Learnt how to use evaluators in Langsmith to measure AI performance with metrics like accuracy and hallucination. It walks through creating custom evaluators, using LLMs as judges, handling RAG-specific evaluations and applying these evaluators to past runs for robust assessments.  
+    Changes made: Implemented using Groq's "openai/gpt-oss-120b" model and tried my own example  
+    Source code: https://github.com/RISSHIKK/RISSHIKK-langsmith-MAT496/blob/main/Module%202/Source%20code/evaluators.ipynb  
+    Tweaked code: https://github.com/RISSHIKK/RISSHIKK-langsmith-MAT496/blob/main/Module%202/evaluators_final.ipynb  
