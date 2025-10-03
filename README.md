@@ -45,3 +45,12 @@
     Changes made: Implemented using Groq's "openai/gpt-oss-120b" model and used HuggingFaceEmbeddings instead of OpenAIEmbeddings in the main code itself instead of app.py  
     Source code: https://github.com/RISSHIKK/RISSHIKK-langsmith-MAT496/blob/main/Module%202/Source%20code/experiments.ipynb  
     Tweaked code: https://github.com/RISSHIKK/RISSHIKK-langsmith-MAT496/blob/main/Module%202/Source%20code/experiments.ipynb  
+
+**Vid 4 - Analyzing Experiment Results**  
+    Learnt how to compare experiments in Langsmith through the UI, analyzing metrics like conciseness and similarity across runs. It shows how to filter experiments, inspect I/Os, review evaluator results and compare versions side by side to balance trade-offs such as latency v/s accuracy. Focus is on using experimentation to refine AI applications.  
+
+**Vid 5 - Pairwise Experiments**  
+    Learnt that pairwise evaluation lets you compare outputs from two experiments to see which performs better, especially helpful when a single result is difficult to score directly but easier to evaluate relative to another.  
+    Changes made: Implemented using Groq's "openai/gpt-oss-120b" and "llama-3.1-8b-instant" model   
+    Source code: https://github.com/RISSHIKK/RISSHIKK-langsmith-MAT496/blob/main/Module%202/Source%20code/pairwise_experiments.ipynb  
+    Tweaked code: https://github.com/RISSHIKK/RISSHIKK-langsmith-MAT496/blob/main/Module%202/pairwise_experiments_final.ipynb  
