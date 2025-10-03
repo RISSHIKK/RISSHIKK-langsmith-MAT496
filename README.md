@@ -25,3 +25,11 @@
     Changes made: Implemented using Groq's "openai/gpt-oss-120b" model, modified utils.py (to use HuggingFaceEmbeddings) to adapt to the usage of main implementation, tested additional prompts to the model at the end  
     Source code: https://github.com/RISSHIKK/RISSHIKK-langsmith-MAT496/blob/main/Module%201/Source%20Codes/conversational_threads.ipynb  
     Tweaked code: https://github.com/RISSHIKK/RISSHIKK-langsmith-MAT496/blob/main/Module%201/conversational_threads_final.ipynb  
+  
+## Module 2:
+
+**Vid 1: Datasets:**
+    Learnt how to build and use datasets in Langsmith to evaluate AI systems offline, explained creating datasets through CSV import and manual entry, tagging versions for iteration, adding examples from real traces, splitting for specialized testing and exporting, building stable "golden" sets to measure improvements over time.  
+    Changes made: Made changes in app.py (used Groq's "openai/gpt-oss-120b" model, used HuggingFaceEmbeddings instead of OpenAIEmbeddings), tested additional prompts to the model at the end  
+    Source code: https://github.com/RISSHIKK/RISSHIKK-langsmith-MAT496/blob/main/Module%202/Source%20code/dataset_upload.ipynb  
+    Tweaked code: https://github.com/RISSHIKK/RISSHIKK-langsmith-MAT496/blob/main/Module%202/dataset_upload_final.ipynb  
