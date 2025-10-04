@@ -54,3 +54,9 @@
     Changes made: Implemented using Groq's "openai/gpt-oss-120b" and "llama-3.1-8b-instant" model   
     Source code: https://github.com/RISSHIKK/RISSHIKK-langsmith-MAT496/blob/main/Module%202/Source%20code/pairwise_experiments.ipynb  
     Tweaked code: https://github.com/RISSHIKK/RISSHIKK-langsmith-MAT496/blob/main/Module%202/pairwise_experiments_final.ipynb  
+
+**Vid 6 - Summary Evaluators**  
+    Learnt about summary evaluators and how they provide overall metrics for an experiment(precision, recall, F1 score) rather than scoring an example, offering complete view of performance across the dataset.  
+    Changes made: Implemented using Groq's "openai/gpt-oss-120b" model and added a 'toxicity_label' to the F1 score section to ensure regardless of how model phrases its answer, evaluation only deals with two consistent classes - "Toxic" and "Not Toxic"  
+    Source code: https://github.com/RISSHIKK/RISSHIKK-langsmith-MAT496/blob/main/Module%202/Source%20code/summary_evaluators.ipynb  
+    Tweaked code: https://github.com/RISSHIKK/RISSHIKK-langsmith-MAT496/blob/main/Module%202/summary_evaluators_final.ipynb
