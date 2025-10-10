@@ -60,3 +60,11 @@
     Changes made: Implemented using Groq's "openai/gpt-oss-120b" model and added a 'toxicity_label' to the F1 score section to ensure regardless of how model phrases its answer, evaluation only deals with two consistent classes - "Toxic" and "Not Toxic"  
     Source code: https://github.com/RISSHIKK/RISSHIKK-langsmith-MAT496/blob/main/Module%202/Source%20code/summary_evaluators.ipynb  
     Tweaked code: https://github.com/RISSHIKK/RISSHIKK-langsmith-MAT496/blob/main/Module%202/summary_evaluators_final.ipynb
+
+## Module 3:
+
+**Vid 1 - Playground:**  
+    Learnt about how to use the playground feature in Langsmith, how to use the system and human messages to see outputs by playing with multiple LLM models, use other features used before like I/O schemas and tool callings, how to make own experiments and implement these features  
+    Changes made: Implemented using Groq's "openai/gpt-oss-120b" model in the Playground's "Messages" section, tried my own prompts and examples, added the screenshots of the AI responses observed with its corresponding parameters.  
+    Source code: https://github.com/RISSHIKK/RISSHIKK-langsmith-MAT496/blob/main/Module%203/Source%20code/playground_experiments.ipynb  
+    Tweaked code: https://github.com/RISSHIKK/RISSHIKK-langsmith-MAT496/blob/main/Module%203/playground_experiments_final.ipynb  
