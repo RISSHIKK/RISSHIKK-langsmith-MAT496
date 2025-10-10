@@ -68,3 +68,11 @@
     Changes made: Implemented using Groq's "openai/gpt-oss-120b" model in the Playground's "Messages" section, tried my own prompts and examples, added the screenshots of the AI responses observed with its corresponding parameters.  
     Source code: https://github.com/RISSHIKK/RISSHIKK-langsmith-MAT496/blob/main/Module%203/Source%20code/playground_experiments.ipynb  
     Tweaked code: https://github.com/RISSHIKK/RISSHIKK-langsmith-MAT496/blob/main/Module%203/playground_experiments_final.ipynb  
+
+**Vid 2 - Prompts Hub:**  
+    Learnt how to make custom structured prompts in the Prompt Hub, how to pull and upload a prompt from Langsmith, save/push prompt + model configuration as RunnableBinding object and create prompt commits  
+    Changes made: Implemented using Groq's "openai/gpt-oss-120b" model in the code as well as in the Prompt commits, manually made hydrated prompts according to the Groq model, used the "french-rag-prompt" and "french-runnable-sequence" template and used custom hydrated prompts in French to see model response  
+    Source code: https://github.com/RISSHIKK/RISSHIKK-langsmith-MAT496/blob/main/Module%203/Source%20code/prompt_hub.ipynb  
+    Tweaked code: https://github.com/RISSHIKK/RISSHIKK-langsmith-MAT496/blob/main/Module%203/prompt_hub_final.ipynb  
+
+**Vid 3 - Prompt Engineering Lifecycle:**
