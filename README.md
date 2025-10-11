@@ -75,4 +75,8 @@
     Source code: https://github.com/RISSHIKK/RISSHIKK-langsmith-MAT496/blob/main/Module%203/Source%20code/prompt_hub.ipynb  
     Tweaked code: https://github.com/RISSHIKK/RISSHIKK-langsmith-MAT496/blob/main/Module%203/prompt_hub_final.ipynb  
 
-**Vid 3 - Prompt Engineering Lifecycle:**
+**Vid 3 - Prompt Engineering Lifecycle:**  
+    Learnt how to create traces and visualize it on Playground and use it on a dataset, learnt how to pull the prompt from the Prompt Hub instead of manually defining the RAG_PROMPT  
+    Changes made: Implemented using Groq's "openai/gpt-oss-120b" model, modified app.py (to use HuggingFaceEmbeddings instead of OpenAIEmbeddings) to adapt to the usage of main implementation, tested additional prompts to the model at the end with additional prompt to include code explanations for the questions asked as well.  
+    Source code: https://github.com/RISSHIKK/RISSHIKK-langsmith-MAT496/blob/main/Module%203/Source%20code/prompt_engineering_lifecycle.ipynb  
+    Tweaked code: https://github.com/RISSHIKK/RISSHIKK-langsmith-MAT496/blob/main/Module%203/prompt_engineering_lifecycle_final.ipynb  
