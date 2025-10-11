@@ -80,3 +80,6 @@
     Changes made: Implemented using Groq's "openai/gpt-oss-120b" model, modified app.py (to use HuggingFaceEmbeddings instead of OpenAIEmbeddings) to adapt to the usage of main implementation, tested additional prompts to the model at the end with additional prompt to include code explanations for the questions asked as well.  
     Source code: https://github.com/RISSHIKK/RISSHIKK-langsmith-MAT496/blob/main/Module%203/Source%20code/prompt_engineering_lifecycle.ipynb  
     Tweaked code: https://github.com/RISSHIKK/RISSHIKK-langsmith-MAT496/blob/main/Module%203/prompt_engineering_lifecycle_final.ipynb  
+
+**Vid 4 - Prompt Canvas:**  
+    Learnt how to leverage the Prompt Canvas feature on Langsmith, how to use LLMs itself to write better prompts according to the user requirement and how to use custom actions for standardization and collaboration across our organization
